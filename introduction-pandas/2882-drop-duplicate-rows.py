@@ -49,4 +49,4 @@ Alic (customer_id = 4) and Finn (customer_id = 5) both use john@example.com, so 
 import pandas as pd
 
 def dropDuplicateEmails(customers: pd.DataFrame) -> pd.DataFrame:
-    return customers.drop_duplicates("email")
+    return customers.drop_duplicates(subset = "email")
