@@ -7,7 +7,7 @@ Each folder in this repository links to a category of problems on LeetCode.
 At the moment, you will find:
 
 - Introduction to Pandas (Learn Basic Pandas in 15 Qs)
-- 30 Days of Pandas (Essential for pandas Interviews)
+- 30 Days of Pandas (Essential for Pandas Interviews)
 
 ## Note
 
