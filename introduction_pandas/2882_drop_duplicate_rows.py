@@ -18,8 +18,6 @@ Write a solution to remove these duplicate rows and keep only the first occurren
 
 The result format is in the following example.
 
- 
-
 Example 1:
 Input:
 +-------------+---------+---------------------+
@@ -49,4 +47,4 @@ Alic (customer_id = 4) and Finn (customer_id = 5) both use john@example.com, so 
 import pandas as pd
 
 def dropDuplicateEmails(customers: pd.DataFrame) -> pd.DataFrame:
-    return customers.drop_duplicates(subset = "email")
+    return customers.drop_duplicates(subset='email', keep='first')
