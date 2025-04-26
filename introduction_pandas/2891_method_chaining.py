@@ -54,5 +54,5 @@ Can you complete this task in just one line of code using method chaining?"
 import pandas as pd
 
 def findHeavyAnimals(animals: pd.DataFrame) -> pd.DataFrame:
-    filtered_animals = animals[animals['weight'] > 100].sort_values('weight', ascending = False)
-    return filtered_animals[['name']]
+    sorted_animals = animals.sort_values("weight", ascending = False)
+    return sorted_animals[sorted_animals['weight']>100][['name']]
